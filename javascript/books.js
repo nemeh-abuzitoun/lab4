@@ -3,7 +3,7 @@ var userName = prompt("Whats your name ?");
 console.log(userName);
 alert("welcome to our websit " + userName );
    document.write("<p> Welcome to the circle </p>");
- document.write("<footer> 2021 bt nemeh abuzitoun </footer>");
+ document.write("<footer> 2021 by nemeh abuzitoun </footer>");
 
 var age = prompt("Whats your age ?");
 
@@ -15,16 +15,24 @@ else
   alert(" try  our kids books websit ");
 }
 
-var books = ["scince", "licture", "historical"];
-var i = 0;
+var books  = prompt("Whats your fav books ?");
+var books  = ["a", "b", "c", "d", "e", "f"];
 var text = "";
-
-for (;books[i];) {
-  text += books[i] + "<br>";
-  i++;
-}
+var i;
 for (i = 0; i < books.length; i++) {
-  <img src="https://media.npr.org/assets/img/2020/09/18/gettyimages-1170941183-c1e33a9a2b274d5381f14d18f71db5ee0342aec3-s300-c85.webp" width="250px" alt="AOT"/>
-  text += books[i] + "<br>";
-}
 
+document.write('<img scr-"https://media.istockphoto.com/photos/books-picture-id949118068?s=612x612"/>');
+
+    document.write("<p> type your fav book  </p>");
+
+  text += books[i] + "<br>";
+  
+}
+var text = "";
+var i = 0;
+while (i <4) {
+  
+  text += "<br>The book is " + i;
+  i++;
+  var books = prompt("type your fav book ?");
+}
