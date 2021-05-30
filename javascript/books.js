@@ -19,10 +19,10 @@ var books  = prompt("Whats your fav books ?");
 var books  = ["a", "b", "c", "d", "e", "f"];
 var text = "";
 var i;
-var length ;
-var length = prompt("Whats your books lengh ?");
+var type ;
+var type = prompt("Whats your fav book types ?");
 var books  = prompt("Whats your fav books ?");
-for (i = 0; i < books.length; i++) {
+for (i = 0; i < books.type; i++) {
 
 document.write('<img scr-"https://media.istockphoto.com/photos/books-picture-id949118068?s=612x612"/>');
 
