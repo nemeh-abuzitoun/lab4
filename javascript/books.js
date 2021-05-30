@@ -1,4 +1,5 @@
 
+
 var userName = prompt("Whats your name ?");
 console.log(userName);
 alert("welcome to our websit " + userName );
