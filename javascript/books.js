@@ -25,10 +25,12 @@ while (books!="historical" && books!="science"){
 }
 alert("correct answer");
 var bookCover = prompt("how many books do you want see");
+
  
 
 for( var j =0 ; j<bookCover; j++){
   document.write('<img src="https://images-platform.99static.com//pSowFbcSptftAVGPO3Le0PCQhQE=/fit-in/590x590/99designs-contests-attachments/62/62255/attachment_62255190"/>' );
+
 
 }
 
