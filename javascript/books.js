@@ -50,9 +50,7 @@ while (i <4) {
   document.write(`Fullname is <b> ${bookTitle} </b> ${writerName} <br>`);
  }
 
-;
-   document.write(`Fullname is <b> ${firstName} </b> ${lastName} <br>`);
-// }
+
 
 
 
