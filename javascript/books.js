@@ -50,7 +50,9 @@ while (i <4) {
   document.write(`Fullname is <b> ${bookTitle} </b> ${writerName} <br>`);
  }
 
-
+if (bookTitle=="") {
+bookTitle = prompt('Please enter your book Title');
+}
 
 
 
