@@ -39,3 +39,26 @@ while (i <4) {
   i++;
   var books = prompt("type your fav book ?");
 }
+
+
+ let bookTitle = prompt('Please enter your book Title');
+ let writerName = prompt('Please enter the writerName');
+
+
+ function bookInfo(bookTitle, writerName) {
+   console.log('bookInfo', bookTitle, writerName);
+  document.write(`Fullname is <b> ${bookTitle} </b> ${writerName} <br>`);
+ }
+
+;
+   document.write(`Fullname is <b> ${firstName} </b> ${lastName} <br>`);
+// }
+
+
+
+
+
+
+
+
+
