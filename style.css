@@ -1,9 +1,9 @@
 header img {
-  width:500px;
+  width: 500px;
 }
 
 .header-nav {
-  float: center
+  float: left
 }
 
 .header-nav ul li {
@@ -15,22 +15,15 @@ header img {
 
 h1 {
   text-align:  right;
-  background: blue;
+  background: rgb(77, 67, 73);
   color: #FF1493;
 }
 
 main img {
-  width:100px;
+  width:800px;
 }
 
 footer {
   text-align:  right;
-  font-size: 6px;
-}
-{
-<ul>
-  <li><a href="#">Home</a></li>
-<li><a href="#">About ust</a></li>
-  <li><a href="#">Fav books</a></li>
-</ul>
+  font-size: 20px;
 }
